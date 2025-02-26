@@ -3,9 +3,15 @@ package com.intern.movieApi.entity;
 import com.intern.movieApi.enums.Genre;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.BatchSize;
+
+import java.util.List;
 
 @Entity
-@Table(name ="movie")
+@Table(name ="movie",indexes = {
+        @Index(name = "idx_title", columnList = "title"),
+        @Index(name = "idx_director", columnList = "director")
+})
 @Getter
 @Setter
 @NoArgsConstructor
@@ -32,4 +38,8 @@ public class Movie {
 
     @Column(nullable = false)
     private double imdbRating;
+
+    @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY,cascade=CascadeType.ALL)
+    @BatchSize(size=10)
+    private List<Review> reviews;
 }
