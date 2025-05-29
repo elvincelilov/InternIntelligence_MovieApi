@@ -12,12 +12,12 @@ public class SwaggerConfig {
     public GroupedOpenApi moviesApi() {
         return GroupedOpenApi.builder()
                 .group("movie-api")
-                .pathsToMatch("/api/**") // API endpoint-lərini göstərmək
+                .pathsToMatch("/api/**") // show end-point
                 .addOpenApiCustomizer(openApi -> openApi.info(
                         new Info().title("Movie API")
-                                .description("CRUD operations for movie database")
+                                .description(" operations for movie database")
                                 .version("1.0")
-                                .contact(new Contact().name("Your Name").email("your-email@example.com"))
+                                .contact(new Contact().name("Elvin Jalilov").email("celilovelvin11@gmail.com"))
                 ))
                 .build();
     }
