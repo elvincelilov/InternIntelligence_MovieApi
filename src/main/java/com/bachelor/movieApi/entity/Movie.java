@@ -1,6 +1,6 @@
-package com.intern.movieApi.entity;
+package com.bachelor.movieApi.entity;
 
-import com.intern.movieApi.enums.Genre;
+import com.bachelor.movieApi.enums.Genre;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.BatchSize;

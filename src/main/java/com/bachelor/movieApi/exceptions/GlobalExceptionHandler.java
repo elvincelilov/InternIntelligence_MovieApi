@@ -1,4 +1,4 @@
-package com.intern.movieApi.exceptions;
+package com.bachelor.movieApi.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

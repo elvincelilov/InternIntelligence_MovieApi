@@ -1,14 +1,10 @@
-package com.intern.movieApi.controller;
+package com.bachelor.movieApi.controller;
 
-import com.intern.movieApi.entity.Movie;
-import com.intern.movieApi.enums.Genre;
-import com.intern.movieApi.repository.CustomMovieRepo;
-import com.intern.movieApi.repository.MovieRepository;
-import com.intern.movieApi.service.MovieService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
+import com.bachelor.movieApi.entity.Movie;
+import com.bachelor.movieApi.enums.Genre;
+import com.bachelor.movieApi.repository.CustomMovieRepo;
+import com.bachelor.movieApi.repository.MovieRepository;
+import com.bachelor.movieApi.service.MovieService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

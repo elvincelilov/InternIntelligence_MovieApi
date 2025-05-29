@@ -1,4 +1,4 @@
-package com.intern.movieApi;
+package com.bachelor.movieApi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

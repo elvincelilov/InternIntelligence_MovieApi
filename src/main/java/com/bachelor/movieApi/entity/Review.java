@@ -1,4 +1,4 @@
-package com.intern.movieApi.entity;
+package com.bachelor.movieApi.entity;
 
 import jakarta.persistence.*;
 

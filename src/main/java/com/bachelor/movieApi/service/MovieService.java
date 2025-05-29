@@ -1,8 +1,8 @@
-package com.intern.movieApi.service;
+package com.bachelor.movieApi.service;
 
-import com.intern.movieApi.entity.Movie;
-import com.intern.movieApi.exceptions.ResourceNotFoundException;
-import com.intern.movieApi.repository.MovieRepository;
+import com.bachelor.movieApi.entity.Movie;
+import com.bachelor.movieApi.exceptions.ResourceNotFoundException;
+import com.bachelor.movieApi.repository.MovieRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

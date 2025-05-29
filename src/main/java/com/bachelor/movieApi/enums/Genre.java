@@ -1,4 +1,4 @@
-package com.intern.movieApi.enums;
+package com.bachelor.movieApi.enums;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 

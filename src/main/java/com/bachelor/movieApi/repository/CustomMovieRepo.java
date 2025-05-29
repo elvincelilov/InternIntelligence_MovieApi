@@ -1,7 +1,7 @@
-package com.intern.movieApi.repository;
+package com.bachelor.movieApi.repository;
 
-import com.intern.movieApi.entity.Movie;
-import com.intern.movieApi.enums.Genre;
+import com.bachelor.movieApi.entity.Movie;
+import com.bachelor.movieApi.enums.Genre;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;

@@ -1,4 +1,4 @@
-package com.intern.movieApi.intern.movieApi;
+package com.bachelor.movieApi.intern.movieApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

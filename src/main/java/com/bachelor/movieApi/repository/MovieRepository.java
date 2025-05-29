@@ -1,6 +1,6 @@
-package com.intern.movieApi.repository;
+package com.bachelor.movieApi.repository;
 
-import com.intern.movieApi.entity.Movie;
+import com.bachelor.movieApi.entity.Movie;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
